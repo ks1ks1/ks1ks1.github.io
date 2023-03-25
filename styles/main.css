@@ -1,0 +1,82 @@
+html, body, h2, h3, h4, div, p, ul, li, input {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    padding-top: 2em;
+    margin-bottom: 5em;
+    clear: both;
+}
+
+#subsection {
+    padding-top:2em;
+    padding-left:2em;
+}
+
+#document {
+    padding:1em;
+}
+
+#section_title {
+    padding-top:2em;
+    padding-left:20%;
+    font-size: large;
+    font-weight: bold;
+}
+
+li:not(:first-of-type) { 
+    margin-top: 1.5em; 
+} 
+
+li:not(:last-of-type) { 
+    margin-bottom: 1.5em; 
+}
+
+.container {
+    clear: all;
+    padding-top:2em;
+    padding-left:22%;
+    padding-bottom:2em;
+    width: 80%;
+    height: 25em;
+}
+
+.one {
+    width: 25em;
+    float: left;
+}
+
+.two {
+    margin-left: 10%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#section_content {
+    clear:all;	
+    padding-top:2em;
+    padding-left:22%;
+    padding-bottom:0em;
+    width:50%;
+    line-height: 1.5em;
+}
+
+#spark {
+    padding-left:2em;
+    padding-bottom:1em;
+    font-size:small;
+    color:#990000;
+    width:80%;
+}
+
+#scholog_date {
+    padding-left:1em;
+    color:#336633;
+}
+
+#ref{
+    padding-left:2em;
+    font-size:small;
+    width: 80%;
+}
+
